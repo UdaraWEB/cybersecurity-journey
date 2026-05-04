@@ -1,4 +1,4 @@
-TRYHACKME - Corridor (Writeup)
+TRYHACKME WEB CHALLANGE - Corridor (Writeup)
 
 In this challenge, the goal was to find the flag by exploring the website.
 
@@ -10,7 +10,7 @@ echo -n 0 | md5sum
 
 After that, I copied the hash and placed it at the end of the URL. When I searched it in the browser, the page loaded and the flag was visible.
 
----
+
 
 What I learned
 
@@ -18,7 +18,7 @@ What I learned
 - Even hashed values (like MD5) can be guessed if the input is simple
 - Using the terminal to generate hashes is useful during testing
 
----
+
 
 Conclusion
 
