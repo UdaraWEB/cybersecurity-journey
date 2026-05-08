@@ -1,13 +1,13 @@
 TryHackMe - Networking Secure Protocols (Write-up)
 
-1. Introduction
+      1. Introduction
    
 In this room, I learned how data stays safe while traveling across the internet. In the past, data was sent in Cleartext (plain text),
  meaning anyone could see your passwords using tools like Wireshark. To fix this, we now use Secure Protocols.
 
-2. Key Concepts I Learned
+      2. Key Concepts I Learned
    
-  A. SSL vs. TLS
+A. SSL vs. TLS
   
 SSL (Secure Sockets Layer): The old way of securing data (developed in 1995).
 
@@ -35,7 +35,7 @@ It hides my real IP Address and identity from servers.
 
 It allows employees to access office files safely from home.
 
-3. Hands-on Challenge: Finding the Flags
+      3. Hands-on Challenge: Finding the Flags
    
 Task 1: The FTP/FTPS Logic
 
@@ -62,7 +62,7 @@ I found Packet 365 (the request) and Packet 366 (the data).
 Extract the Flag: I right-clicked Packet 366 and chose Show Packet Bytes. Under the Decrypted TLS tab, I saw the form data.
 Flag found in the password field: THM{B8WM6P}
 
-7. Conclusion
+      4. Conclusion
    
 This room taught me that security isn't just about one tool; it's about using the right protocols (TLS, SSH, VPN) and ports.
 Even strong encryption like TLS can be inspected if a researcher (or hacker) manages to get the session keys!
