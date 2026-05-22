@@ -56,8 +56,3 @@ Here are the most important parameters I learned to use in the terminal:
 ###  CAPA Web Explorer
 Reading a 3,000-line text file is impossible. So, I learned that we can upload the `.json` report to the **CAPA Web Explorer** tool. It converts the boring text into a beautiful web interface where we can use a **Global Search Box** to find matches like `/schtasks/i` (Scheduled Tasks) or `/VMWare/i` (Anti-VM tricks).
 
-
-
-
----
-*If this write-up helped you understand CAPA, feel free to star ⭐ this repository!*
